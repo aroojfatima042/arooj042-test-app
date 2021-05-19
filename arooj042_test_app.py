@@ -71,9 +71,9 @@ elif choice == "Exponent":
         st.write("Result is : ", result)
 
 
-elif choice == "Square Root":
+elif choice == "Square":
         a = st.number_input("Enter a Number", min_value=0, max_value=100, value=1, step=1)
-        square_root = a * 0.5
+        square_root = a * a
         st.write("Square of", a, "is", square_root)
 
         # x = int(input('Enter your number'))
