@@ -43,7 +43,7 @@ elif choice == "Division":
 
 
 st.header("Advanced Calculator")
-options = ["Factorial", "Exponent", "Square Root"]
+options = ["Factorial", "Exponent", "Square"]
 choice = st.selectbox("Option", options)
     # if choice == "Addition":
     #     a = st.number_input("Please input First Number")
